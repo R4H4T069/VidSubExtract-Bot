@@ -10,8 +10,8 @@ from PIL import Image
 BOT_TOKEN = os.environ.get("BOT_TOKEN")
 API_ID = os.environ.get("API_ID")
 API_HASH = os.environ.get("API_HASH")
-LANG = os.environ.get("SUBTITLE_LANG") #Get this from https://en.m.wikipedia.org/wiki/List_of_ISO_639-2_codes
-USE_CROP = os.environ.get("USE_CROP") #[Optional] Set to ANYTHING to enable crop mode
+LANG = os.environ.get("SUBTITLE_LANG") # Get this from https://en.m.wikipedia.org/wiki/List_of_ISO_639-2_codes
+USE_CROP = os.environ.get("USE_CROP") # [Optional] Set to ANYTHING to enable crop mode
 
 Bot = Client(
     "VidSubExtract-Bot",
